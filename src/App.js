@@ -23,7 +23,8 @@ function App() {
             exact
             path="/"
             render={() => (
-              <PostsPage message="No results found. Adjust the search keyword." />
+              <PostsPage message="No results found. Adjust the search keyword." 
+              />
             )}
           />
           <Route
